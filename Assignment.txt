@@ -1,0 +1,9 @@
+.data
+in: .asciiz "Enter number of disks\n"
+in1: .asciiz "Number of moves = "
+.text
+la $a0,in
+li $v0,4
+syscall
+li $v0 ,5
+syscall
